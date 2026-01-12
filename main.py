@@ -26,7 +26,8 @@ class AgenticRAG:
         print("🚀 Initializing Agentic RAG System...")
         
         # Use default URLs if none provided
-        self.urls = urls or Config.DEFAULT_URLS
+        # self.urls = urls or Config.DEFAULT_URLS
+        self.urls = urls 
         
         # Initialize components
         self.llm = Config.get_llm()

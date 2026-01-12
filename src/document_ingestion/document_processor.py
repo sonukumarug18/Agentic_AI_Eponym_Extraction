@@ -31,10 +31,10 @@ class DocumentProcessor:
             chunk_size=chunk_size,
             chunk_overlap=chunk_overlap
         )
-    def load_from_url(self, url: str) -> List[Document]:
-        """Load document(s) from a URL"""
-        loader = WebBaseLoader(url)
-        return loader.load()
+    # def load_from_url(self, url: str) -> List[Document]:
+    #     """Load document(s) from a URL"""
+    #     loader = WebBaseLoader(url)
+    #     return loader.load()
 
     def load_from_pdf_dir(self, directory: Union[str, Path]) -> List[Document]:
         """Load documents from all PDFs inside a directory"""
@@ -63,8 +63,8 @@ class DocumentProcessor:
         """
         docs: List[Document] = []
         for src in sources:
-            if src.startswith("http://") or src.startswith("https://"):
-                docs.extend(self.load_from_url(src))
+            # if src.startswith("http://") or src.startswith("https://"):
+            #     docs.extend(self.load_from_url(src))
            
             path = Path("data")
             if path.is_dir():  # PDF directory

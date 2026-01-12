@@ -25,12 +25,18 @@ class Config:
     CHUNK_SIZE = 500
     CHUNK_OVERLAP = 50
     
-    # Default URLs
-    DEFAULT_URLS = [
-        "https://www.medlink.com/news/the-enduring-legacy-of-grand-rounds",
+    # # Default URLs
+    # DEFAULT_URLS = [
+    #     "https://www.medlink.com/news/the-enduring-legacy-of-grand-rounds",
 
-    ]
-    
+    # ]
+
+     # Default URLs
+    DEFAULT_URLS = ["https://www.google.com", ]
+       
+
+
+
     # @classmethod
     # def get_llm(cls):
     #     """Initialize and return the LLM model"""
