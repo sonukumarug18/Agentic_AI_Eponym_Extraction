@@ -1,0 +1,32 @@
+Medical eponyms are terms named after people (e.g., "Alzheimer's disease", "Parkinson's disease", "Cushing's syndrome"). Your system must:
+
+1 Parse various document formats (PDF, DOCX, TXT)
+
+2  Intelligently identify and extract eponyms (not just pattern matching!)
+
+3 Validate and enrich the eponyms with context
+
+4 Generate a creative, medically-informed song using the extracted eponyms
+
+5 Implement proper error handling and state management using LangGraph
+
+
+extract Medical eponyms are terms named after people (e.g., "Alzheimer's disease", "Parkinson's disease", "Cushing's syndrome")from retrievr and Generate a creative, medically-informed song using the extracted eponyms. 
+
+
+extract Medical eponyms are terms named after people from retieved docs and Generate a creative, medically-informed song using the extracted eponyms. 
+
+
+
+
+
+
+
+
+
+
+
+        "Extract all medical eponyms from these documents and use them to write a creative,clinically-informed song",
+        "List every person-named medical term found in the text, then weave them into an educational song about their clinical meanings.",
+        "Compose a song using the medical eponyms found in these files; ensure the lyrics accurately reflect the conditions they describe."
+
